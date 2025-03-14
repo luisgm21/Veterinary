@@ -11,8 +11,8 @@ namespace Veterinary.Models
         void AddPet(PetModel pet);
         void EditPet(PetModel pet);
         void DeletePet(int id);
-        IEnumerable<PetModel> GetAlls();
-        IEnumerable<PetModel> GetByValue(); // Searchs
+        IEnumerable<PetModel> GetAll();
+        IEnumerable<PetModel> GetByValue(string value); // Searchs
 
 
     }
